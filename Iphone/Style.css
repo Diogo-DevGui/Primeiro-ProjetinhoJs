@@ -1,0 +1,158 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    /*margem externa */
+    padding: 0%;
+    /*margem interna */
+    box-sizing: border-box;
+
+}
+.caixa-roxa {
+
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #d3d3d3; 
+    
+ }
+
+
+ul {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    margin-left: 100px;
+}
+
+li {
+    font-size: 12px;
+    font-weight: 400;
+    color: #373737;
+    cursor: pointer;
+}
+
+.logo{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+
+margin: 0;
+
+
+
+}
+.caixa-azul {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    
+    padding: 50px;
+
+}
+
+.titulo-iphone {
+    font-size: 30px;
+    /*tamanho do texto*/
+}
+
+.secundario {
+    font-size: 40px;
+    /* margem do texto */
+    margin-top: 10px;
+    /* margem parte de cima */
+    margin-bottom: 20px;
+    /* margem parte de baixo */
+}
+
+.paragrafo {
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.preco {
+    font-size: 20px;
+    collor: #626262;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.botao {
+    background-color: #0071e3;
+    color: #ffffff;
+    padding: 10px 20px;
+    /* */
+    border: none;
+    /* fronteira / bordinha*/
+    border-radius: 20px;
+    /*arredondamento*/
+    border-width: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+.troca-cor {
+    width: 40px;
+    /* largura*/
+    height: 40px;
+    /*altura*/
+    border-radius: 50px;
+    /* raio de borda*/
+    border: none;
+    /* sem bordas ao redor*/
+    cursor: pointer;
+    /* mãozinha/ ponteiro*/
+}
+
+.azul {
+    background-color: #81A5C4;
+}
+
+.amarelo {
+    background-color: #F7DA47;
+}
+
+.branco {
+    background-color: #C1C1C1;
+}
+
+.preto {
+    background-color: #272D33;
+}
+
+.vermelho {
+    background-color: #b50012;
+}
+
+.roxo {
+    background-color: #ede7f1;
+}
+
+.escolha-cor {
+    font-size: 16px;
+    color: #3a3a3a;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+
+.iphone {
+    width: 450px;
+    margin-top: 100px;
+    z-index: 99;
+}
+
+.circulo { 
+    width: 100%;
+    height: 100%;
+    background: #81A5C4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 1000px);
+    
+
+}
